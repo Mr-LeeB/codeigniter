@@ -55,4 +55,12 @@ abstract class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
+
+    /**
+     * Set data master layout
+     */
+    public function loadMasterLayout($data)
+    {
+        return $data;
+    }
 }
